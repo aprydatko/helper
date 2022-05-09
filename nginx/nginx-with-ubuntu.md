@@ -54,11 +54,24 @@ sudo make
 sudo make install
 ```
 
-- Смотреть дополнительные параметры [nginx configure](http://nginx.org/ru/docs/configure.html)
-- Для проверки конфигурации: <code>ls -l /etc/nginx/</code>
+-   Смотреть дополнительные параметры [nginx configure](http://nginx.org/ru/docs/configure.html)
+-   Для проверки конфигурации: <code>ls -l /etc/nginx/</code>
 
-### Запуск nginx с помощью команды nginx
+### Команды для работы с nginx
 
 ```
-nginx start
+# start
+sudo /etc/init.d/nginx start
+
+#restart
+sudo /etc/init.d/nginx restart
+
+#stop
+sudo /etc/init.d/nginx stop
+
+#reload
+sudo /etc/init.d/nginx reload
+
+#quit
+sudo nginx -s quit
 ```
