@@ -37,7 +37,7 @@ cd nginx-1.21.0/
 ### Устанавливаем набор библиотек
 
 ```
-sudo apt-get install libpcre3 libpcre3-dev libpcrecpp0v libssl-dev zlib1g-dev
+sudo apt-get install libpcre3 libpcre3-dev libpcrecpp0v5 libssl-dev zlib1g-dev
 ```
 
 ### Изменяем конфигурацию nginx
